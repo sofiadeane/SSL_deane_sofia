@@ -9,13 +9,7 @@
 	},
 	"folders": [
 		{
-			"path": "01-Automata"
-		},
-		{
-			"path": "02-Analizador_Lexico"
-		},
-		{
-			"path": "03-Analizador_Sintactico"
-		},
+			"path": "./"
+		}
 	]
 }

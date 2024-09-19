@@ -3,19 +3,17 @@
 		"debug.onTaskErrors": "abort",
 		"files.associations": {
 			"*.h": "c",
-			"functional": "c"
+			"functional": "c",
+			"typeinfo": "c",
+			"type_traits": "c",
+			"compare": "c",
+			"cmath": "c"
 		},
 		"C_Cpp.errorSquiggles": "disabled",
 	},
 	"folders": [
 		{
-			"path": "01-Automata"
-		},
-		{
-			"path": "02-Analizador_Lexico"
-		},
-		{
-			"path": "03-Analizador_Sintactico"
-		},
+			"path": "./"
+		}
 	]
 }

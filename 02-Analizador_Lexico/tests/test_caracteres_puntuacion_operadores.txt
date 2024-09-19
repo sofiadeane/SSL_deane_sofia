@@ -1,0 +1,70 @@
+int main() {
+    int a = 10;
+    int b = 5;
+    int c[] = [1,2,3]
+    int resultado;
+
+    resultado = a + b ? 2 : 8; 
+    printf("Suma: %d\n", resultado);
+
+    resultado = a - b; 
+    printf("Resta: %d\n", resultado);
+
+    resultado = a * b; 
+    printf("Multiplicación: %d\n", resultado);
+
+    resultado = a / b; 
+    printf("División: %d\n", resultado);
+
+    resultado = a % b; 
+    printf("Módulo: %d\n", resultado);
+
+    if (a == b) {
+        printf("a es igual a b\n");
+    } else if (a != b) {
+        printf("a no es ,igual a b\n");
+    }
+
+    if (a > b) {
+        printf("a es mayor que b\n");
+    } else if (a < b) {
+        printf("a es menor que b\n");
+    }
+
+    if ((a > 0) && (b > 0)) {
+        printf("Ambos a y b son positivos\n");
+    }
+
+    if ((a > 0) || (b < 0)) {
+        printf("Al menos uno de a o b es positivo\n");
+    }
+
+    a++;
+    b--;
+    printf("a incrementado: %d\n", a);
+    printf("b decrementado: %d\n", b);
+
+    switch (a) {
+        case 10:
+            printf("a es 10\n");
+            break;
+        case 20:
+            printf("a es 20\n");
+            break;
+        default:
+            printf("a no es ni 10 ni 20\n");
+            break;
+    }
+
+    for (int i = 0; i < 5; i++) {
+        printf("i: %d\n", i);
+    }
+
+    int i = 0;
+    while (i < 5) {
+        printf("i en while: %d\n", i);
+        i++;
+    }
+
+    return 0;
+}
